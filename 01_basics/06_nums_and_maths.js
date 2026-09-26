@@ -5,7 +5,7 @@ const balance = new Number(100)
 //console.log(balance);  here we explicitly declare the datatype with new object
 
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(2));
+// console.log(balance.toFixed(2));   
 
 const otherNumber = 125.5464
 
