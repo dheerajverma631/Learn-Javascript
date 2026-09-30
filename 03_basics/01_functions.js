@@ -37,4 +37,35 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("dheeraj"));
 // console.log(loginUserMessage("a"));
 
+function calculatorCartPrice(val1, val2, ...num1){   //"..."  -- is a rest operator it bundles all the elements into one
+    return num1
+}
 
+// console.log(calculatorCartPrice(200,400,600,800,1000));
+
+const user = {
+    username : "Dheeraj",
+    price : 999
+}
+
+function handleobject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+// handleobject(user)
+
+// handleobject({
+//     username : "sam",
+//     price : 499
+// })
+
+const newArray = [200,400,500,600,100]
+
+function returnSecondValue(getArray){
+
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(newArray));
+console.log(returnSecondValue([200,800,900]));
