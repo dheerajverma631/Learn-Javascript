@@ -55,8 +55,29 @@ const users = [  //array of objects
 
 // console.log(tinderUser.hasOwnProperty('isLogged'));
 
+const course = {
+    coursename : "learning js",
+    price : "free",
+    courseInstructor : "Dheeraj"
+}
 
+// console.log(course.courseInstructor);
 
+const{courseInstructor: instructor} = course  //object de-structuring
+
+// console.log(instructor);
+
+// {
+//     "name" : "dheeraj",
+//     "coursename" : "learning js",
+//     "price" = "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
 
 
