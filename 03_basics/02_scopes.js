@@ -29,6 +29,32 @@ function one(){
 
 one ()
 
+if (true) {
+    const username = "dheeraj"
+    if (username === "dheeraj"){
+        const website = "youtube"
+        // console.log(username  + website);
+    }
+    // console.log(website);
+    
+}
+// console.log(username);
+
+// +++++++++++++++++++++   Interesting ++++++++++++++++++++++++++++++++++++
+console.log(addone(5))
+function addone(num) {
+    return num + 1
+}
+
+addtwo(5)
+const addtwo= function (num){  // here it is declared as a expression
+    return num + 3
+}
+
+
+
+
+
 
 
 
